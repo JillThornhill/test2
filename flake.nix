@@ -20,7 +20,7 @@
             efiSupport = true;
             efiInstallAsRemovable = true;
           };
-        })
+        }
       ];
     };
   };
