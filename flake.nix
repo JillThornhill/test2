@@ -24,8 +24,7 @@
             efiInstallAsRemovable = true;
           };
           services.openssh.enable = true;
-           users.users.root.openssh.authorizedKeys.keys = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICZ5JOx5EYZuX0sV6u0vWCkxfX03sbHl148bry1NwNuW root@ubuntu-4gb-hel1-2" ];
- #         users.users.root.openssh.authorizedKeys.keys = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKREKbihvckSohdmjQFZELhNNhSHdaoO9zPUUUCll9Y0 jill@Ubuntu" ];
+          users.users.root.openssh.authorizedKeys.keys = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKREKbihvckSohdmjQFZELhNNhSHdaoO9zPUUUCll9Y0 jill@Ubuntu" ];
         })
       ];
     };
