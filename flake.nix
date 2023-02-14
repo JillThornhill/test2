@@ -10,7 +10,7 @@
       modules = [
            ./universal_dhcp.nix
             disko.nixosModules.disko
-          ];
+          
           {
           disko.devices = import ./disk-config.nix {
             lib = nixpkgs.lib;
